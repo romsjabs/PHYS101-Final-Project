@@ -1,0 +1,20 @@
+/* © 2025 Romar Jabez */
+
+.menu {
+    font-family: 'Inter', sans-serif;
+}
+
+.title {
+    margin: 0;
+}
+
+.menu-wrapper {
+    display: flex;
+    flex-direction: column;
+    background-color: #87ac84;
+    color: #1a2618;
+    gap: 10px;
+    padding: 20px 20px;
+    border-radius: 18px;
+    box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.7);
+}
