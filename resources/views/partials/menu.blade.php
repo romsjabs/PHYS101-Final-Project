@@ -16,7 +16,7 @@
             'inputLabel' => 'force',
         ])
 
-        @include('components.switcher', [
+        @include('components.switch', [
             'switchVar' => 'allowFriction',
             'switchLabel' => 'Allow Friction (µ_k = 0.2)',
         ])

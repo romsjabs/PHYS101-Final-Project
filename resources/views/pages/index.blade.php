@@ -6,6 +6,8 @@
         
         @include('partials.menu')
 
+        @include('partials.canvas')
+
     </div>
 
 @endsection

@@ -2,6 +2,11 @@
 
 body {
     background-color: #b2e3af;
-    padding: 20px;
     margin: 0;
+    padding: 20px;
+}
+
+.content {
+    display: flex;
+    gap: 10px;
 }
