@@ -1,10 +1,8 @@
-@section('styles')
-    <link rel="stylesheet" href="{{ asset('assets/css/components/inputField.css') }}">
-@endsection
-
-@section('component')
-    
-@endsection
+@once
+    @push('styles')
+        <link rel="stylesheet" href="{{ asset('assets/css/components/inputField.css') }}">
+    @endpush
+@endonce
 
 <div class="input-field-wrapper">
 
@@ -15,4 +13,8 @@
 
 </div>
 
-<script src="{{ asset('assets/js/components/inputField.js') }}"></script>
+@once
+    @push('scripts')
+        <script src="{{ asset('assets/js/components/inputField.js') }}"></script>
+    @endpush
+@endonce

@@ -1,20 +1,20 @@
 /* © 2025 Romar Jabez */
 
-.canvas {
-    font-family: 'Lucida Console', sans-serif;
-    font-weight: 400;
-}
-
 .canvas-wrapper {
     padding: 20px;
     background-color: #eae8e8;
     border-radius: 18px;
     box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.7);
-    width: 74vw;
-    height: 92vh;
+    width: 80vw;
+    height: 60vw;
+    max-width: 1200px;
+    max-height: 100px;
 }
 
 .canvas-status {
     display: flex;
     gap: 30px;
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 400;
+    font-size: 18px;
 }

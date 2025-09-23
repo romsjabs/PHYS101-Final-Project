@@ -1,7 +1,9 @@
-@section('styles')
-    <link rel="stylesheet" href="{{ asset('assets/css/components/button.css') }}">
-@endsection
+@once
+    @push('styles')
+        <link rel="stylesheet" href="{{ asset('assets/css/components/button.css') }}">
+    @endpush
+@endonce
 
-@section('component')
-    
-@endsection
+<div class="button-wrapper">
+
+</div>

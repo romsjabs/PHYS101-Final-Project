@@ -8,7 +8,7 @@
 
         @include('partials.canvas', [
             'units' => [
-                'F = 0.00 N', 'a = 2.00 m/s2', 'v = 0.00 m/s'    
+                'F = 0.00 N', 'a = 0.00 m/s²', 'v = 0.00 m/s'    
             ],
         ])
 

@@ -1,4 +1,8 @@
-<link rel="stylesheet" href="{{ asset('assets/css/partials/menu.css') }}">
+@once
+    @push('styles')
+        <link rel="stylesheet" href="{{ asset('assets/css/partials/menu.css') }}">
+    @endpush
+@endonce
 
 <div class="menu" id="menu">
     
