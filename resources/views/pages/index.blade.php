@@ -6,7 +6,11 @@
         
         @include('partials.menu')
 
-        @include('partials.canvas')
+        @include('partials.canvas', [
+            'units' => [
+                'F = 0.00 N', 'a = 2.00 m/s2', 'v = 0.00 m/s'    
+            ],
+        ])
 
     </div>
 

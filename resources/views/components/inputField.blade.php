@@ -1,4 +1,10 @@
-<link rel="stylesheet" href="{{ asset('assets/css/components/inputField.css') }}">
+@section('styles')
+    <link rel="stylesheet" href="{{ asset('assets/css/components/inputField.css') }}">
+@endsection
+
+@section('component')
+    
+@endsection
 
 <div class="input-field-wrapper">
 

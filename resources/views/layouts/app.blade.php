@@ -15,6 +15,7 @@
     </noscript>
     @include('util.scripts')
     @yield('scripts')
+    @yield('component-styles')
 </head>
 <body>
     @include('partials.header')
