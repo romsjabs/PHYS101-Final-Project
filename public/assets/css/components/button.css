@@ -1,0 +1,36 @@
+/* © 2025 Romar Jabez */
+
+button {
+    border: none;
+    padding: 0;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    cursor: pointer;
+}
+
+.btn {
+    font-weight: 600;
+    padding: 10px 0;
+    border-radius: 8px;
+    width: 100%;
+    transition: all 0.2s ease-in-out;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.8);
+}
+
+.btn:hover {
+    filter: brightness(0.8);
+}
+
+.btn.main {
+    background-color: #364436;
+    color: white;
+}
+
+.btn.danger {
+    background-color: #b64545;
+    color: white;
+}
+
+.btn.dual {
+    padding: 10px 68.5px;
+}

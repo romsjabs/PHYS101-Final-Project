@@ -14,6 +14,12 @@
 
         </div>
 
+        <div class="canvas-buttons">
+
+            
+
+        </div>
+
     </div>
 
 </div>

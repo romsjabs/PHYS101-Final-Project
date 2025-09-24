@@ -10,20 +10,51 @@
 
         <h3 class="title">The Laws of Motion</h3>
 
-        @include('components.inputField', [
-            'inputVar' => 'massInput',
-            'inputLabel' => 'mass',
-        ])
+        <div class="fields-container">
 
-        @include('components.inputField', [
-            'inputVar' => 'forceInput',
-            'inputLabel' => 'force',
-        ])
+            @include('components.inputField', [
+                'inputVar' => 'massInput',
+                'inputLabel' => 'mass',
+            ])
 
-        @include('components.switch', [
-            'switchVar' => 'allowFriction',
-            'switchLabel' => 'Allow Friction (µ_k = 0.2)',
-        ])
+            @include('components.inputField', [
+                'inputVar' => 'forceInput',
+                'inputLabel' => 'force',
+            ])
+
+        </div>
+
+        <div class="switches-container">
+            @include('components.switch', [
+                'switchVar' => 'allowFriction',
+                'switchLabel' => 'Allow Friction (µ_k = 0.2)',
+            ])
+        </div>
+
+        <div class="buttons-container">
+
+            @include('components.button', [
+                'buttonType' => 'main',
+                'buttonId' => 'startBtn',
+                'buttonLabel' => 'Start',
+                'buttonUsage' => null
+            ])
+
+            @include('components.button', [
+                'buttonType' => 'main',
+                'buttonId' => 'startBtn',
+                'buttonLabel' => 'Pause',
+                'buttonUsage' => 'dual'
+            ])
+
+            @include('components.button', [
+                'buttonType' => 'danger',
+                'buttonId' => 'startBtn',
+                'buttonLabel' => 'Stop',
+                'buttonUsage' => 'dual'
+            ])
+
+        </div>
 
     </div>
 

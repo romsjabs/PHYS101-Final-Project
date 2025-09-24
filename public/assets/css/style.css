@@ -10,3 +10,14 @@ body {
     display: flex;
     gap: 10px;
 }
+
+.fields-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.buttons-container {
+    display: flex;
+    gap: 5px;
+}
