@@ -1,4 +1,8 @@
-<link rel="stylesheet" href="{{ asset('assets/css/partials/canvas.css') }}">
+@once
+    @push('styles')
+        <link rel="stylesheet" href="{{ asset('assets/css/partials/canvas.css') }}">
+    @endpush
+@endonce
 
 <div class="canvas" id="canvas">
     
@@ -16,7 +20,17 @@
 
         <div class="canvas-buttons">
 
-            
+            @include('components.iconButton', [
+                'buttonType' => 'main',
+                'buttonId' => 'zoomInBtn',
+                'buttonIcon' => 'plus',
+            ])
+
+            @include('components.iconButton', [
+                'buttonType' => 'main',
+                'buttonId' => 'zoomOutBtn',
+                'buttonIcon' => 'minus',
+            ])
 
         </div>
 
