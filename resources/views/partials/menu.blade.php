@@ -35,10 +35,14 @@
 
             @include('components.button', [
                 'buttonType' => 'main',
-                'buttonId' => 'startBtn',
+                'buttonId' => 'start',
                 'buttonLabel' => 'Start',
-                'buttonUsage' => null
+                'buttonUsage' => 'single',    
             ])
+
+        </div>
+
+        <div class="buttons-container">
 
             @include('components.button', [
                 'buttonType' => 'main',

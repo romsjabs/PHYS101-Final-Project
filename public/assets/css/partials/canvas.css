@@ -5,10 +5,8 @@
     background-color: #eae8e8;
     border-radius: 18px;
     box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.7);
-    width: 80vw;
-    height: 60vw;
-    max-width: 1200px;
-    max-height: 100px;
+    width: 76.5vw;
+    height: 92vh;
 }
 
 .canvas-status {
