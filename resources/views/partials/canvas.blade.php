@@ -23,13 +23,13 @@
             @include('components.iconButton', [
                 'buttonType' => 'main',
                 'buttonId' => 'zoomInBtn',
-                'buttonIcon' => 'plus',
+                'buttonIcon' => '<i class="fa-solid fa-plus"></i>',
             ])
 
             @include('components.iconButton', [
                 'buttonType' => 'main',
                 'buttonId' => 'zoomOutBtn',
-                'buttonIcon' => 'minus',
+                'buttonIcon' => '<i class="fa-solid fa-minus"></i>',
             ])
 
         </div>
@@ -37,3 +37,9 @@
     </div>
 
 </div>
+
+@once
+    @push('scripts')
+        <script src="{{ asset('assets/js/canvas.js') }}"></script>
+    @endpush
+@endonce
