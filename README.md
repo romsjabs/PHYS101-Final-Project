@@ -8,6 +8,9 @@
 - **Patriarca, Jester**
 - **Samson, Dency**
 
+### Professor
+- **Macanlay, Marife L.**
+
 ## Description
 
 This web application features the 2D simulator of Newton's Laws. We have:
