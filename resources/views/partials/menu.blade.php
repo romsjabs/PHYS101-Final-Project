@@ -8,7 +8,7 @@
     
     <div class="menu-wrapper">
 
-        <h3 class="title">The Laws of Motion</h3>
+        <h3 class="title">The Laws of Newton</h3>
 
         <div class="fields-container">
 
