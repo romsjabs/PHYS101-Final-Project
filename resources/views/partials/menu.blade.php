@@ -36,26 +36,23 @@
             @include('components.button', [
                 'buttonType' => 'main',
                 'buttonId' => 'start',
-                'buttonLabel' => 'Start',
-                'buttonUsage' => 'single',    
+                'buttonLabel' => 'Start',  
             ])
 
         </div>
 
-        <div class="buttons-container">
+        <div class="buttons-container dual">
 
             @include('components.button', [
                 'buttonType' => 'main',
                 'buttonId' => 'startBtn',
                 'buttonLabel' => 'Pause',
-                'buttonUsage' => 'dual'
             ])
 
             @include('components.button', [
                 'buttonType' => 'danger',
                 'buttonId' => 'startBtn',
                 'buttonLabel' => 'Stop',
-                'buttonUsage' => 'dual'
             ])
 
         </div>

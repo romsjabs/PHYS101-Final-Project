@@ -6,7 +6,7 @@
 
 <div class="button-wrapper">
 
-    <button type="button" class="btn {{ $buttonType }} {{ $buttonUsage }}" id="{{ $buttonId }}">
+    <button type="button" class="btn {{ $buttonType }}" id="{{ $buttonId }}">
         {{ $buttonLabel }}
     </button>
 
