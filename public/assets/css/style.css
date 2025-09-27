@@ -4,6 +4,7 @@ body {
     background-color: #b2e3af;
     margin: 0;
     padding: 20px;
+    user-select: none;
 }
 
 .content {

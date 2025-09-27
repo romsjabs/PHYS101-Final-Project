@@ -12,6 +12,7 @@
 .canvas-wrapper canvas,
 .canvas-wrapper svg {
     background-color: rgb(160, 81, 81);
+    cursor: grab;
 }
 
 .canvas-wrapper,
@@ -28,6 +29,13 @@
     font-size: 18px;
     position: absolute;
     padding: 20px;
+    user-select: none;
+    caret-color: transparent;
+}
+
+.canvas-wrapper canvas:active,
+.canvas-wrapper svg:active {
+    cursor: grabbing;
 }
 
 .canvas-buttons {

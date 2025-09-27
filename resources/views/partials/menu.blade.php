@@ -15,11 +15,13 @@
             @include('components.inputField', [
                 'inputVar' => 'massInput',
                 'inputLabel' => 'mass',
+                'inputColor' => 'main',
             ])
 
             @include('components.inputField', [
                 'inputVar' => 'forceInput',
                 'inputLabel' => 'force',
+                'inputColor' => 'main',
             ])
 
         </div>
